@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056E40632630828700402F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056E40622630828700402F0F /* Assets.xcassets */; };
+		056E40662630828700402F0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056E40652630828700402F0F /* Preview Assets.xcassets */; };
+		056E40762630838C00402F0F /* DateFormatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E40752630838C00402F0F /* DateFormatter+.swift */; };
+		056E40792630840C00402F0F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E40782630840C00402F0F /* Message.swift */; };
+		056E407C263084AC00402F0F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E407B263084AC00402F0F /* User.swift */; };
+		056E407F2630870E00402F0F /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E407E2630870E00402F0F /* ChatViewModel.swift */; };
+		058C61842631F8FB00B8D9F9 /* ChatScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C61832631F8FB00B8D9F9 /* ChatScrollView.swift */; };
+		058C61872631F92700B8D9F9 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C61862631F92700B8D9F9 /* MessageView.swift */; };
+		058C618A2631FA3B00B8D9F9 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C61892631FA3B00B8D9F9 /* ToolbarView.swift */; };
+		05BE1EAA2631E15800444CAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE1EA82631E15800444CAF /* ContentView.swift */; };
+		05BE1EAB2631E15800444CAF /* CrosstalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE1EA92631E15800444CAF /* CrosstalkApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		056E405B2630828600402F0F /* Crosstalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crosstalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056E40622630828700402F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		056E40652630828700402F0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		056E40672630828700402F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056E40752630838C00402F0F /* DateFormatter+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+.swift"; sourceTree = "<group>"; };
+		056E40782630840C00402F0F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		056E407B263084AC00402F0F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		056E407E2630870E00402F0F /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		058C61832631F8FB00B8D9F9 /* ChatScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScrollView.swift; sourceTree = "<group>"; };
+		058C61862631F92700B8D9F9 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		058C61892631FA3B00B8D9F9 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		05BE1EA82631E15800444CAF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05BE1EA92631E15800444CAF /* CrosstalkApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrosstalkApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056E40582630828600402F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056E40522630828600402F0F = {
+			isa = PBXGroup;
+			children = (
+				056E405D2630828600402F0F /* Crosstalk */,
+				056E405C2630828600402F0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056E405C2630828600402F0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056E405B2630828600402F0F /* Crosstalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056E405D2630828600402F0F /* Crosstalk */ = {
+			isa = PBXGroup;
+			children = (
+				05BE1EA72631E14900444CAF /* App */,
+				056E4070263082CB00402F0F /* Models */,
+				056E40732630830E00402F0F /* ViewModels */,
+				056E40722630830300402F0F /* Views */,
+				056E406E2630829900402F0F /* Supporting Files */,
+			);
+			path = Crosstalk;
+			sourceTree = "<group>";
+		};
+		056E40642630828700402F0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				056E40652630828700402F0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		056E406E2630829900402F0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				056E40622630828700402F0F /* Assets.xcassets */,
+				056E40672630828700402F0F /* Info.plist */,
+				056E40642630828700402F0F /* Preview Content */,
+				056E40752630838C00402F0F /* DateFormatter+.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		056E4070263082CB00402F0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				056E40782630840C00402F0F /* Message.swift */,
+				056E407B263084AC00402F0F /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		056E40722630830300402F0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05BE1EA82631E15800444CAF /* ContentView.swift */,
+				058C61832631F8FB00B8D9F9 /* ChatScrollView.swift */,
+				058C61862631F92700B8D9F9 /* MessageView.swift */,
+				058C61892631FA3B00B8D9F9 /* ToolbarView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		056E40732630830E00402F0F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				056E407E2630870E00402F0F /* ChatViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		05BE1EA72631E14900444CAF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				05BE1EA92631E15800444CAF /* CrosstalkApp.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056E405A2630828600402F0F /* Crosstalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056E406A2630828700402F0F /* Build configuration list for PBXNativeTarget "Crosstalk" */;
+			buildPhases = (
+				056E40572630828600402F0F /* Sources */,
+				056E40582630828600402F0F /* Frameworks */,
+				056E40592630828600402F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crosstalk;
+			productName = Crosstalk;
+			productReference = 056E405B2630828600402F0F /* Crosstalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056E40532630828600402F0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					056E405A2630828600402F0F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 056E40562630828600402F0F /* Build configuration list for PBXProject "Crosstalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 056E40522630828600402F0F;
+			productRefGroup = 056E405C2630828600402F0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056E405A2630828600402F0F /* Crosstalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056E40592630828600402F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E40662630828700402F0F /* Preview Assets.xcassets in Resources */,
+				056E40632630828700402F0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056E40572630828600402F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E40762630838C00402F0F /* DateFormatter+.swift in Sources */,
+				056E40792630840C00402F0F /* Message.swift in Sources */,
+				058C618A2631FA3B00B8D9F9 /* ToolbarView.swift in Sources */,
+				05BE1EAA2631E15800444CAF /* ContentView.swift in Sources */,
+				05BE1EAB2631E15800444CAF /* CrosstalkApp.swift in Sources */,
+				058C61872631F92700B8D9F9 /* MessageView.swift in Sources */,
+				058C61842631F8FB00B8D9F9 /* ChatScrollView.swift in Sources */,
+				056E407C263084AC00402F0F /* User.swift in Sources */,
+				056E407F2630870E00402F0F /* ChatViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		056E40682630828700402F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		056E40692630828700402F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		056E406B2630828700402F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Crosstalk/Preview Content\"";
+				DEVELOPMENT_TEAM = T4P7568DN6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Crosstalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.opine.iosCommon.Crosstalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		056E406C2630828700402F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Crosstalk/Preview Content\"";
+				DEVELOPMENT_TEAM = T4P7568DN6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Crosstalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.opine.iosCommon.Crosstalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056E40562630828600402F0F /* Build configuration list for PBXProject "Crosstalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E40682630828700402F0F /* Debug */,
+				056E40692630828700402F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056E406A2630828700402F0F /* Build configuration list for PBXNativeTarget "Crosstalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E406B2630828700402F0F /* Debug */,
+				056E406C2630828700402F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 056E40532630828600402F0F /* Project object */;
+}
